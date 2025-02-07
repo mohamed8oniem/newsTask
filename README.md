@@ -98,3 +98,32 @@ VITE_NEWS_API_KEY=your_news_api_key
 VITE_NYTIMES_API_KEY=your_nytimes_api_key
 VITE_GUARDIAN_API_KEY=your_guardian_api_key
 ```
+
+# 🎯 Running the Project
+
+```sh
+npm run dev
+```
+
+# 🔹 Build for Production
+
+```sh
+npm run build
+npm run preview
+```
+
+# 🐳 Running with Docker
+
+### 1️⃣ Build the Docker Image
+
+```sh
+docker build -t my-news-app .
+```
+
+### 2️⃣ Run the Container
+
+```sh
+docker run -p 5173:5173 my-news-app
+```
+
+✅ Open http://localhost:5173/ to view the app.
