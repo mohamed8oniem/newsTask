@@ -83,13 +83,18 @@ This is a **React.js + TypeScript** project that aggregates news from multiple s
 ```sh
 git clone https://github.com/mohamed8oniem/newsTask.git
 cd newsTask
+```
+
+### 2️⃣ Install Dependencies
+
+```sh
 npm install
-npm run dev
+```
 
+### 3️⃣ Create a .env File
 
-
-
-
-
-
+```ini
+VITE_NEWS_API_KEY=your_news_api_key
+VITE_NYTIMES_API_KEY=your_nytimes_api_key
+VITE_GUARDIAN_API_KEY=your_guardian_api_key
 ```
