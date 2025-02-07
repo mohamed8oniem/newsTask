@@ -13,16 +13,8 @@ interface ArticleCardProps {
 }
 
 export const ArticleCard = ({ article }: ArticleCardProps) => {
-  const {
-    title,
-    description,
-    url,
-    urlToImage,
-    publishedAt,
-    author,
-    source,
-    pillarName,
-  } = article;
+  const { title, description, url, urlToImage, publishedAt, author, source } =
+    article;
 
   return (
     <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
